@@ -1,20 +1,23 @@
 <template>
   <div id="app">
     <h1> {{ header }} </h1>
-    <HelloWorld msg=""/>
-    <MainApp message="Привет"/>
+    <!-- <HelloWorld msg=""/> -->
+    <MyHeader header="Приложение для решения квадратных уравнений"/>
+    <hr>
+    <MyComponent/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import MainApp from './components/MainApp.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+import MyHeader from './components/MyHeader.vue'
+import MyComponent from './components/MyComponent.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    MainApp,
+    // HelloWorld,
+    MyHeader,
+    MyComponent
   },
   Date: {
     header: 'Привет лунатикам!'
