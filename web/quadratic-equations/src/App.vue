@@ -2,7 +2,7 @@
   <div id="app">
     <h1> {{ header }} </h1>
     <!-- <HelloWorld msg=""/> -->
-    <MyHeader header="Приложение для решения квадратных уравнений"/>
+    <MyHeader header="An application for solving quadratic equations"/>
     <hr>
     <MyComponent/>
   </div>

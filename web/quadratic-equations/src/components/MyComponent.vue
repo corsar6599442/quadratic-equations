@@ -1,6 +1,7 @@
 <template>
     <div class="root">
-{{ text }}
+        <input v-model="InputText">
+<btn>Ввод</btn>
     </div>
 </template>
 <script>
@@ -9,7 +10,7 @@ export default {
     name:'MyComponent',
     data() {
         return {
-text: 'Allright!'
+            InputText: `Введите значение`
         }
     },
 }
